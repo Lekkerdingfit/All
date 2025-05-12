@@ -115,7 +115,7 @@ ul{
 
 .bold{
 	font-weight:bold;
-	font-size:calc(5* var(--base-size));
+	font-size:calc(4* var(--base-size));
 	padding-bottom: 1rem;
 	text-align: left;
 	text-decoration: underline;
@@ -141,7 +141,21 @@ footer{
 	margin-top: calc(2*var(--base-size));
 	border-top: solid black 1px;
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-between;	
+}
+
+.go-top{
+	position:fixed;
+	bottom:1rem;
+	right:1rem;
+	justify-content: center;
+	display:flex;
+	background-color:#F411E5;
+	color:white;
+	padding:1rem;
+	width:2rem;
+	height:2rem;
+	align-items: center;
 }
 
 .gutters{
