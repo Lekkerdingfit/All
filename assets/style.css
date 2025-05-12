@@ -11,7 +11,6 @@
 }
 
 /* Default- Mobile size */
-
 header{
 	background-color: var(--color--background);
 	padding-block: calc(3*var(--base-size));
@@ -136,11 +135,12 @@ ul{
 }
 
 footer{
-	font-family: helvetica;
-	padding-top:calc(2*var(--base-size));
+	font-family: var(--base-font);
+	padding-top:calc(2.2*var(--base-size));
 	padding-bottom: calc(3*var(--base-size));
 	margin-top: calc(2*var(--base-size));
-	border-top: solid black 1px;
+	background-color: #F411E5;
+	color:white;
 	display:flex;
 	justify-content: space-between;	
 }
@@ -153,6 +153,7 @@ footer{
 	display:flex;
 	background-color:#F411E5;
 	color:white;
+	border:white solid 2px;
 	padding:1rem;
 	width:2rem;
 	height:2rem;
@@ -170,8 +171,6 @@ footer{
 	top:1.5rem;
 	right:1rem;
 }
-
-
 
 
 
@@ -306,8 +305,9 @@ footer{
 	padding-top:calc(2*var(--base-size));
 	padding-bottom: calc(3*var(--base-size));
 	margin-top: calc(2*var(--base-size));
-	border-top: solid black 1px;
 	display:flex;
+	background-color: #F411E5;
+	color:white;
 	justify-content: space-between;
 }
 
